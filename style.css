@@ -1,46 +1,50 @@
-#game-container{
+#game-container {
     display: flex;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    width: 350px;
-    height: 600px;
+    height: 500px;
+    width: 290px;
     margin: auto;
-    box-shadow:  0px 27px 37px #c6bdbd;
-    border-radius: 2px;
+    box-shadow: 0px 27px 37px #c6bdbd;
+    border-radius: 20px;
 
 }
 
-#container{
+#container {
     display: flex;
     margin-left: -60px;
-   
+
 }
-#player1{
-    color:#3D88EA;
+
+#player1 {
+    color: #3D88EA;
     font-size: 225px;
     font-weight: 1000;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-shadow:  0px 27px 37px #3D88EA;
+    text-shadow: 0px 27px 37px #3D88EA;
     margin-top: 18px;
     margin-bottom: 25px;
     transform: rotate(-45deg);
-    
+
 }
-#player2{
-    color: rgb(240, 173, 49);
-    font-size: 125px;
-    font-weight: 1000;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-shadow:  0px 27px 37px rgb(240, 173, 49);;
-    margin-top: 6rem;
+
+#player2 {
+    width: 35px;
+    height: 35px;
+    border: 40px solid rgba(249, 113, 50, 1);
+    border-radius: 50%;
+    margin-top: 144px;
+    box-shadow: 0px 27px 37px rgba(249, 113, 50, 1);
 }
-p{
+
+p {
     text-align: center;
     color: #3D88EA;
-    
+
+
 }
-button{
+#game-container button {
     width: 130px;
     margin: 10px;
     padding: 10px;
@@ -48,11 +52,78 @@ button{
     border: none;
     background-color: #3D88EA;
     color: white;
-    box-shadow:  0px 10px 40px #3D88EA;
-    
+    box-shadow: 0px 10px 40px #3D88EA;
+
 }
+
 button:hover{
-    background-color: #fff;
+    background-color: white;
     color: #3D88EA;
-    cursor: pointer;
+}
+
+#sign-container{
+    margin: auto;
+    height: 500px;
+    width: 290px;
+    color: rgb(77, 76, 76);
+    margin-top: 80px;
+    overflow: hidden;
+    box-shadow: 0px 27px 37px #c6bdbd;
+    border-radius: 20px;
+}
+#container-el{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 195px;
+}
+
+#sign-container h3 {
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7f8D99;
+}
+
+#sign-container input {
+    border: 0px;
+    border-bottom: 1px solid #3D88EA;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+#sign-container input::placeholder {
+    font-size: 15px;
+
+}
+
+#sign-btn {
+    width: 130px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 170px;
+    background-color: #fff;
+    color: #7f8D99;
+    box-shadow: 0px 17px 57px #8897a5;
+
+}
+
+
+.circle{
+    position: relative;
+    bottom: 220px;
+    left: 180px;
+}
+.cross{
+    color: #3D88EA;
+    font-size: 225px;
+    font-weight: 1000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0px 27px 37px #3D88EA;
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 170px;
+    right: 140px;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,35 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <div id="game-container">
         <div id="container">
             <h1 id="player1">+</h1>
-            <h1 id="player2">O</h1>
+            <h1 id="player2"></h1>
         </div>
-            <p>Choose your play mode</p>
-            <button>With AI</button>
-            <button>With a friend</button>
-
+        <p>Choose your play mode</p>
+        <button>With AI</button>
+        <button id="">With a friend</button>
     </div>
-    
+
+
+
+
+    <div id="sign-container">
+        <div class="circle">
+            <h1 id="player2"></h1>
+        </div>
+        <div id="container-el">
+            <h3>Enter your Name</h3>
+            <input type="text" id="input-el" placeholder="Name">
+            <button id="sign-btn">CONTINUE</button>
+            <div class="cross">+</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
