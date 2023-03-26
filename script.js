@@ -31,3 +31,14 @@ friendBtn.addEventListener("click" , function(){
     document.getElementById("localPlayer-container").style.display = "block";
     gameContainer.style.display = "none"  
 })
+
+document.getElementById("local-btn").addEventListener("click",function(){
+    choseContainer.style.display = "block";
+    document.getElementById("localPlayer-container").style.display = "none";
+})
+
+document.getElementById("chose-btn").addEventListener("click", function(){
+    document.querySelector(".main-container").style.display = "block";
+    choseContainer.style.display = "none";
+})
+
