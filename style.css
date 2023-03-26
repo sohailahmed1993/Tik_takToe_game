@@ -303,14 +303,14 @@ p {
     border-radius: 20px;
     margin-top: 80px;
     background-color: white;
-    display: none;
+    /* display: none; */
 }
 
-.box-container {
+#box-container {
     display: grid;
     grid-template-columns: repeat(3, 6vw);
     grid-template-rows: repeat(3, 6vw);
-    margin-top: 80px;
+    margin-top: 30px;
     justify-content: center;
 
 }
@@ -367,3 +367,5 @@ p {
     margin: auto;
 
 }
+
+/* ---------------------------- 5th page --------------------------------------------- */
